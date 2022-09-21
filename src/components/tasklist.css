@@ -1,0 +1,10 @@
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    margin: 100px auto;
+    background-color: white;
+}
+
+.tableContainer{
+    text-align: left;
+}
