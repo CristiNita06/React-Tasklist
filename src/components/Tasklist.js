@@ -43,10 +43,10 @@ export default function Tasklist(){
     });
     var config = {
       method: "get",
-      url: "https://dev75752.service-now.com/api/x_723118_dashboard/task_list",
+      url: "https://dev80940.service-now.com/api/x_723118_dashboard/task_list",
       headers: {
         //Authorization': 'Bearer WIJpHnPnZhmn5TFKPzayZolwZ2W9TsxNv0Rj1UdpVFECKXV2BdjGMG0INye5IGoyyDyWVWXk9Eoz5Gv28n8CDA',
-        'Authorization': 'Basic YWRtaW46bVdYYThvYmxIOEVJ',
+        'Authorization': 'Basic YWRtaW46ejdEYSExc3ElUktO',
       },
       data: data,
     };
@@ -73,11 +73,11 @@ export default function Tasklist(){
     });
     var config = {
       method: "delete",
-      url: `https://dev75752.service-now.com/api/x_723118_dashboard/task_list/${sys_id}`,
+      url: `https://dev80940.service-now.com/api/x_723118_dashboard/task_list/${sys_id}`,
       headers: {
         // 'Authorization': 'Bearer WIJpHnPnZhmn5TFKPzayZolwZ2W9TsxNv0Rj1UdpVFECKXV2BdjGMG0INye5IGoyyDyWVWXk9Eoz5Gv28n8CDA',
         Authorization:
-          "Basic YWRtaW46bVdYYThvYmxIOEVJ",
+          "Basic YWRtaW46ejdEYSExc3ElUktO",
       },
       data: data,
     };

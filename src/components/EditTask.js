@@ -23,11 +23,11 @@ export default function EditTask({editTask, modalVisibility, getData}){
       
       var config = {
         method: 'patch',
-        url: `https://dev75752.service-now.com/api/x_723118_dashboard/task_list/${editTask.sys_id}`,
+        url: `https://dev80940.service-now.com/api/x_723118_dashboard/task_list/${editTask.sys_id}`,
         headers: {
           //'Authorization': 'Bearer WIJpHnPnZhmn5TFKPzayZolwZ2W9TsxNv0Rj1UdpVFECKXV2BdjGMG0INye5IGoyyDyWVWXk9Eoz5Gv28n8CDA',
           'Content-Type': 'application/json', 
-          'Authorization': 'Basic YWRtaW46bVdYYThvYmxIOEVJ', 
+          'Authorization': 'Basic YWRtaW46ejdEYSExc3ElUktO', 
         },
         data : data
       };
