@@ -1,0 +1,41 @@
+.modalWrapper{
+    position: absolute;
+    background-color:rgb(107, 107, 107);
+    opacity: 0.96;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+}
+
+.modal-popup{
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    opacity: 1;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
+
+}
+
+.exitButton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.createTaskButton{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-top: 20px;
+}
+
+input{
+    border: 0px;
+    border-bottom: 1px solid gray;
+}
